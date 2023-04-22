@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginform{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px; 
+    background: #130f40;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
+}
+.inputbox{
+    position: relative;
+    width: 300px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background:#130f40;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 1em;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.inputbox input:valid~span,
+.inputbox input:focus~span{
+    color: #130f40;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: #eaff00;
+    border-radius: 2px;
+}
+.inputbox input:valid,
+.inputbox input:focus{
+    border: 1px solid #eaff00;
+}
+.img{
+    height: 190px;
+}
+.loginbutton{
+    width: 300px;
+    height: 40px;
+    font-size: 1.5em;
+    color: #130f40;
+    background: white;
+    border-radius: 5px;
+    margin: 20px 0 50px 0;
+    border: 1px solid white;
+}

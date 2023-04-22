@@ -1,0 +1,16 @@
+.center{
+    justify-content: space-around;
+    display: flex;
+    background: #130f40;
+}
+.center > a {
+    background-color: #130f40;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    }
+.center > a:hover{
+    background-color: #0c092d;
+}
