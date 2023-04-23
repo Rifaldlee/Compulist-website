@@ -1,0 +1,59 @@
+.editform{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
+}
+.inputbox{
+    position: relative;
+    width: 300px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background:white;
+    border-radius: 5px;
+    border: 1px solid #130f40;
+    outline: none;
+    color: #130f40;
+    font-size: 1em;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.inputbox input:valid~span,
+.inputbox input:focus~span{
+    color: white;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: #130f40;
+    border-radius: 2px;
+}
+.inputbox input:valid,
+.inputbox input:focus{
+    border: 1px solid #130f40;
+}
+.center{
+    justify-content: space-around;
+    display: flex;
+    background: #130f40;
+}
+.center > a {
+    background-color: #130f40;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    }
+.center > a:hover{
+    background-color: #0c092d;
+}
