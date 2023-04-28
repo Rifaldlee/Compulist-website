@@ -2,3 +2,18 @@
     flex: 1 1 auto;
     margin: 0 10px 10px 10px
 }
+.card-button{
+    background-color: #130f40;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    padding: 7px 0;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+.card-button:hover {
+    color: white;
+    background-color: #0c092d;
+}
