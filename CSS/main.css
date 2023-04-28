@@ -30,6 +30,9 @@ li a:hover:not(.active) {
     background-color: #eaff00;
     color:black;
 }
+.active:hover{
+    color: black;
+}
 .row::after {
     content: "";
     clear: both;
