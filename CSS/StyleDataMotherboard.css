@@ -37,3 +37,6 @@
     border: 0;
     border-radius: 5px;
 }
+.table-responsive{
+    max-height: 450px;
+}

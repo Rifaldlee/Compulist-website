@@ -49,3 +49,7 @@ li a:hover:not(.active) {
     height: 54px;
     margin: 0 2rem 0 0;
 }
+.navigation{
+    position: sticky;
+    top: 0;
+}
