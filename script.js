@@ -1,19 +1,5 @@
-function Login(){window.location.href="HomePage.html"}
-function Edit(){window.location.href="EditMotherboard.html"}
-function Save(){window.location.href="DataMotherboard.html"}
-
-let popup = document.getElementById("pop-up");
-function OpenPopup(){
-    popup.classList.add("open-popup");
-    document.getElementById("Action").style.display = 'none';
-}
-function ClosePopup(){
-    popup.classList.remove("open-popup");
-    document.getElementById("Action").style.display = 'flex';
-}
-
 const notifications = document.querySelector(".notifications"),
-buttons = document.querySelectorAll(".delete-button");
+buttons = document.querySelectorAll(".buttons .btn");
 
 // Object containing details for different types of toasts
 const toastDetails = {
